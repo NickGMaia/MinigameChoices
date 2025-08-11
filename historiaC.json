@@ -1,0 +1,56 @@
+{
+    "inicio": {
+        "falas": [
+            "(Você ouve uma batida na porta.) Tock tock!!",
+            "Mãe: Filho, abre aqui para a mãe, por favor.",
+            "Com sono e querendo dormir mais, você tem duas escolhas:"
+        ],
+        "escolhas": [
+            {
+                "texto": "(Abrir a porta e ajudar sua mãe)",
+                "proxima": "ajudar-mae"
+            },
+            {
+                "texto": "(Deixar como está e continuar dormindo)",
+                "proxima": "morte"
+            }
+        ]
+    },
+
+    "ajudar-mae": {
+        "falas": [
+            "(Você se levanta e, em passos lentos devido ao sono, vai se aproximando da porta)",
+            "(Gira a maçaneta para sua mãe entrar)",
+            "Oi mãe, onde estava? (esfregando os olhos)",
+            "Mãe: Ainda dormindo, menino? Eu estava na feira fazendo as compras, agora me ajude a guardar.",
+            "Tá bom."
+        ],
+        "escolhas": [
+            {
+                "texto": "Fim da demonstração. Recomeçar?",
+                "proxima": "inicio"
+            }
+        ]
+    },
+
+    "morte": {
+        "falas": [
+            "(Você decide continuar dormindo e se vira para o lado da parede)",
+            "(Isso foi uma péssima escolha)",
+            "(Sua mãe, com raiva, arromba a porta e com o barulho você desperta assustado)",
+            "(Sem entender nada, com a visão ainda turva devido ao sono, você vê ela se aproximando)",
+            "Mãe?",
+            "Mâe: Eu falei para você abrir para mim!!",
+            "(Nesse momento você sente um forte vento indo em sua direção)",
+            "(Sua mãe havia tirado suas sandálias e...)",
+            "BOCK!",
+            "(Com a sandelhada de sua mãe você voa e bate na parede. Agora sim poderá continuar a dormir.)"
+        ],
+        "escolhas": [
+            {
+                "texto": "Tentar a sorte novamente.",
+                "proxima": "inicio"
+            }
+        ]
+    }
+}
